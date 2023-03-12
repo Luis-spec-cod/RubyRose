@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family:'future';
+    src: url(Futura\ Book.ttf) format(truetype);
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+   
+}
+
+h1{
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px;
+}
+h4{
+    font-size: 14px;
+    padding: 5px;
+    margin: 0px 0px 4px 0px;
+    font-weight: lighter;
+}
+
+
+body{
+
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.lup{
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'future',Arial, Helvetica, sans-serif;
+
+
+    
+    position: fixed;
+
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+
+    /*Background*/
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  29px 29px 57px #bebebe,
+             -29px -29px 57px #ffffff;
+}
+.copy input{
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    
+    
+    border: 0px;
+    border-radius: 10px;
+}
+
+.copy input[type=text]{
+    font-weight: bolder;
+    font-size: 16px;
+    align-items: center;
+
+}
+input {
+    font-size: 20px;
+    text-align: center;
+  }
+
+.one{
+    padding: 10px;
+
+}
+
+.two{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.bot{
+    
+    padding-bottom: 20px;
+    
+
+    
+}
+
+.pix{
+    padding: 10px;
+
+}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento</title>
+    <link rel="stylesheet" href="css past/style.css">
+</head>
+<body>
+    <div class="lup">
+        <div class="copy">
+            <div class="one"><h1>Pix CPF: Simone dos Reis</h1>
+                <h4>Só clicar para copiar.</h4></div>
+            
+
+            <input type="text" class="pix" value="086.068.096-75">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script>
+                $(function(){
+                    $(".pix").click(function(){
+                        $(this).select()
+                        document.execCommand('copy')
+                    })
+                })
+            </script>
+        </div>
+        <div class="copy">
+            <div class="two"><h1 class="bot">Pix CPF: Marco Tulio Almeida Ferreira</h1>
+                
+            
+
+        <input  type="text" class="pix"  value="000.928.846-52">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".pix").click(function(){
+                    $(this).select()
+                    document.execCommand('copy')
+                })
+            })
+        </script>
+        </div>
+    </div>
+    
+</body>
+</html>
